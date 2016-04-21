@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 /*body {
 	height: 100%;
 	width: 100%;
@@ -86,22 +87,20 @@ body {
 	background-repeat: no-repeat;*/
 	/*background-color: #FA8679;*/
 }
-h1 {
-	text-align: center;
-	/*color: #FFA4A3;*/
-}
+
 
 p {
 	text-align: center;
-	/*color: #FF5353;*/
 	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	top: 90%;	
+
+
 }
 
 
-span.coralhighlight {
-	/*color: #FFA4A3;*/
 
-}
 
 #rightblack {
 	height: 100%;
@@ -109,9 +108,64 @@ span.coralhighlight {
 	background-color: black;
 	float: right;
 	margin: 0;
+
 }
 
+#yellowtriangle {
+	width: 0px;
+	height: 0px;
+	border-top: 170px solid #F0F414;
+	border-right: 170px solid transparent;
+	border-left: 170px solid transparent;
+	float: left;
+	margin: 0;
 
+	
+}
+
+/*#whitetriangle {
+	width: 0px;
+	height: 0px;
+	border-top: 100px solid white;
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	/*float: left;*/
+
+	
+
+p img#hello {
+	height: 500px;
+	width: 500px;
+	position: fixed;
+	top: 0px;
+	left: calc(50% - 250px);
+
+
+
+}
+
+p img#arrow {
+	height: 80px;
+	width: 140px;
+	/*text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;*/
+	position: fixed;
+	top: 88%;
+	left: calc(50% - 70px);
+
+
+}
+
+img#alexa {
+	height: 200px;
+	width: 250px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-top: 40px;
+}
 
 
 
