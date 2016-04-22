@@ -110,6 +110,15 @@ div#block {
 
 }
 
+button {
+	display: inline-block;
+}
+
+div.projectimage img {
+	height: 600px;
+	width: 600px;
+}
+
 
 /*p {
 	text-align: center;
