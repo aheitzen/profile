@@ -114,9 +114,9 @@ button {
 	display: inline-block;
 }
 
-div.projectimage img {
-	height: 600px;
-	width: 600px;
+.projectimage img {
+	height: 100px;
+	width: 100px;
 }
 
 
