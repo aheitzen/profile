@@ -114,7 +114,13 @@ button {
 	display: inline-block;
 }
 
-.projectimage img {
+.projectimage {
+	height: 100px;
+	width: 100px;
+}
+
+.fa-github {
+	color: black;
 	height: 100px;
 	width: 100px;
 }
