@@ -86,20 +86,20 @@ body {
 	background-size: cover;*/
 	background-repeat: no-repeat;
 	/*background-color: #FA8679;*/
-	background-color: #F69779;
+	background-color: #95BCBB;
 }
 
-p {
-	color: white;
+/*p {
+	color: #45484F;
 	text-align: center;
 	padding-top: 20%;
 	font-size: 40px;
-}
+}*/
 
-p#dev {
+/*p#dev {
 	padding: 0;
 	font-size: 30px;
-}
+}*/
 
 div#block {
 	height: 10px;
@@ -123,6 +123,15 @@ button {
 	color: black;
 	height: 100px;
 	width: 100px;
+}
+p {
+	text-align: center;
+}
+p img {
+	height: 650px;
+	width: 800px;
+	
+	
 }
 
 
