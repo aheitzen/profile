@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
-/*body {
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100);/*body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -128,11 +127,53 @@ p {
 	text-align: center;
 }
 p img {
-	height: 650px;
-	width: 800px;
+	height: 250px;
+	width: 550px;
+	
 	
 	
 }
+
+button  {
+	text-align: center;
+	border-style: none;
+	background-color: white;
+	height: 40px;
+	width: 150px;
+	margin: 10px;
+	
+}
+
+button a {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
+}
+
+a:link { color: black; }
+a:visited { color: black; }
+a:hover { color: black; }
+a:active { color: black; }
+
+.border-fade {
+	display: inline-block;
+	$borderWidth: 4px;
+
+	transition-duration: $defaultDuration;
+	transition-property: box-shadow;
+
+	box-shadow: 
+			inset 0 0 0,
+			0 0 1px rgba(0, 0, 0, 0);  
+	
+	&:hover {
+		box-shadow: 
+			inset 0 0 0 $borderWidth $secondaryColour,
+			0 0 1px rgba(0, 0, 0, 0); 
+	}
+}
+
 
 
 /*p {
