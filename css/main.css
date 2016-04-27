@@ -16,8 +16,6 @@ body {
 	padding-top: 13%;
 }
 
-/*B4F25D*/
-
 
 p button {
 	display: inline-block;
@@ -55,10 +53,15 @@ p {
 	font-size: 30px;
 
 }
+
+
 p img {
 	height: 250px;
 	width: 550px;
+
 }
+
+
 
 p#social {
 	padding-top: 70px;
@@ -96,7 +99,14 @@ a:active { color: black; }
 	height: 100px;
 	width: 100px;
 	color: black;
-	margin: auto;
+	
+}
+
+#footer i.fa-linkedin {
+	height: 100px;
+	width: 100px;
+	color: black;
+	
 }
 
 
