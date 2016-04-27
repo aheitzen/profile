@@ -34,12 +34,25 @@ p button {
 
 .fa-github {
 	color: black;
-	height: 100px;
-	width: 100px;
+	/*height: 100px;
+	width: 100px;*/
+	font-size: 50px;
+}
+
+.fa-linkedin {
+
+}
+
+a {
+	text-align: center;
+	text-decoration: none;
 }
 p {
 	text-align: center;
 	text-decoration: none;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
 
 }
 p img {
